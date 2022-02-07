@@ -1,0 +1,31 @@
+.form {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  padding: 0.5em;
+  font-family: "Montserrat", sans-serif;
+  width: 20em;
+  border: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: rgb(151, 100, 194);
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(104, 64, 138);
+}
